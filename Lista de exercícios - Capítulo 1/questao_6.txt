@@ -1,0 +1,10 @@
+Questão 06. Identifique e liste todos os erros de sintaxe (que violam as regras da linguagem C) e de
+lógica contidos no programa abaixo:
+
+IDENTIFICANDO ERROS DE SINTAXE
+    main() -> função sem retorno
+    {
+    int a=1; b=2; c=3: -> variáveis sem tipos definidos já que ; delimita o fim de uma instrução de código.
+    printf("0s números são: %d%d%d\n, a, b, c, d); -> o delimitador de string "" não está finalizado ao fim do texto.
+    system("pause");
+    }

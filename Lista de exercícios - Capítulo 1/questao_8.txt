@@ -1,0 +1,16 @@
+Questão 08. Explique detalhadamente o comportamento do programa abaixo quando executado no
+console. Apresente qual será a saída exata gerada pelas sequências de escape utilizadas no formato de
+controle:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+printf("\n\t\"Primeiro programa\""); -> \n serve para pular uma linha após a si mesmo. \t serve para dar um espaço (Tab) entre os caracteres. \ sozinho mostra aspas duplas
+system("PAUSE"); -> Esse comando para o console atual, printa "Pressione qualquer tela para continuar" e espera o usuário pressionar qualquer tecla ->
+-> Para fechar o programa.
+return 0;
+}
+
+-> o console fica -> "Primeiro programa"Pressione qualquer tecla para continuar...
