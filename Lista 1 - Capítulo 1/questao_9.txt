@@ -1,0 +1,13 @@
+Questão 09. Determine a saída exata do programa a seguir e explique como o compilador C
+interpreta os argumentos do tipo caractere simples ('\n', '\t', '\"') passados para o modificador %c:
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+printf("%c%c%cPrimeiro programa", '\n', '\t', '\"'); -> Basicamente, ele carregará o que os comandos \n e \t fazem. \ mostra apenas uma " pois está sendo referenciado apenas 1 vez.
+printf("%c", "\""); -> Essa é a forma incorreta de escrever um caracter. o caracter é delimitado por '' não por "". O compilador lerá como uma string. ->
+-> não causou erro de compilação no meu computador, mas o comportamento não está correto. ele printa esse caracter "|" em vez do correto.
+system("PAUSE");
+return 0;
+}

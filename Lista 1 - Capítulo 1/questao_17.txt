@@ -1,0 +1,11 @@
+Questão 17. Dentre as instruções de escrita abaixo, quais estão sintaticamente corretas? O que essas
+variações demonstram sobre a flexibilidade de espaçamento e formatação do compilador C?
+
+a) printf ( "Primeiro programa" );
+b) printf( "Primeiro programa" );
+c) printf("Primeiro programa");
+d) printf "Primeiro programa" ;
+
+Resposta: Letra "A, B, C" estão corretas e printarão a String especificada. Essas variações mostram que
+a linguagem C da certa brecha para erros de espaçamento e se preocupa mais com a sequência de caracteres
+que sinalizam o começo e fim de instruções, tipos de dados, definições de estruturas, entre outros.
